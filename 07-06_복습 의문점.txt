@@ -1,0 +1,27 @@
+decendant.html 에서
+스타일 태그 내의 선택자 의미가 헷갈림.
+굳이 ul > li > span 부등호를 사용하는 것보다
+바로 span 선택자만 입력하는것이 간단하지 않나?
+
+silbings.html 에서
+요소 속성 선택자
+선택자 [속성명='속성값'] {} 이부분이 이해가 안감.
+
+++++++++++++++++부모 자손 선택자와 부모 자식 선택자의 차이점 의문
+
+가장 궁금한 z_index.html
+div { width: 300px;
+				height: 300px;
+				position: absolute; }
+
+에서 포지션 앱솔루트 사용이유. 
+div 클래스가 없는데 선택자로 사용한 이유.
+
+display_table.html
+.table .cell {
+			display: table-cell;
+			width: 100px;
+			height: 100px;
+			border: 1px solid red; 
+		}
+        에서 클래스 table, cell을 연달아 선택한 이유.

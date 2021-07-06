@@ -60,7 +60,12 @@ ex)
 
 2. 공간 
 
-            - Display : 공간 속성을 변경
+    Display : 1. inline; or block; 공간 속성을 변경
+              2. inline-block; inline과 block을 절충 (하이브리드)            
+                a) 줄 개행 X
+                b) 너비,높이 O 모든 방향 여백 가능.
+              3. none; 숨김 처리
+
             - Block : 공간의 속성
                       너비와 높이가 있다.
                       상하좌우 여백(내부,외부)이 있다.
@@ -71,23 +76,17 @@ ex)
                        너비와 높이가 '없다'.
                        상하좌우 내부여백(Padding)이 있다.
                        좌우 외부여백(Margin)만 있다.
-            
-            - Inline-block : inline과 block을 절충 (하이브리드)
-                             줄 개행 X
-                             너비,높이 O 모든 방향 여백 가능.
-
-            - none: 숨김 처리
-
+                                                
             표와 같이 만들어주는 속성 값;
             - Table :테이블 행
             - table-cell : 테이블 열
 
 3. 레이아웃
-    예) <style> Box-sizing: border-box (or) content-box;
+    예) <style> Box-sizing: border-box; (or) content-box;
     
     1) 컨텐츠 영역 기준 (기본값)
-        컨텐츠 영읙의 사이즈를 유지하면서 확대
-        총 사이즈 = 내용 영역(width*height) + Padding + Border
+        컨텐츠 영역의 사이즈를 유지하면서 확대
+        총 사이즈 = 컨텐츠 영역(width*height) + Padding + Border
         content-box
 
     2) 경계 영역 기준
@@ -186,14 +185,16 @@ ex)
         -both
             float: left,float: right 모두 제거
 
-====== 필기 추가 필요 =============
     가상 클래스 선택자 - after
+        예시) 
+        .width:after {clear: left; content: ''; display; block;}
 
-    width 
-        - 너비
+    width - 너비
         - calc() -> 계산
         예)
-=======필기 추가 필요 ============
+            width: calc(100% - 200px);
+            width: calc(100% / 3);
+            연산 기호 앞 뒤로 반드시 띄어쓰기
 
 8. 그래픽
     background
