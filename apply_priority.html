@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS 적용 우선순위 연습</title>
+        <style>
+            #menu1 {
+                background-color: red;
+            }
+            .menu1 {
+                background-color: gray !important;
+            }
+            li {
+                background-color: yellow;
+            }
+            .menu {
+                background-color: orange;
+            }
+           
+        </style>
+    </head>
+    <body>
+       <ul>
+           <li>메뉴1</li>
+           <li class="menu">메뉴2</li>
+           <li class='menu menu1' id='menu1' 
+           style="background-color: pink;">메뉴3</li>
+           <li>메뉴4</li>
+           <li>메뉴5</li>
+       </ul>
+    </body>
+
+</html>
