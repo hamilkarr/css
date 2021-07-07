@@ -1,0 +1,17 @@
+전환 효과
+사이즈나 색상 위치등이 변화 될때 효과
+(애니메이션 효과)
+
+Transition
+    - Transition-property: CSS 속성
+    - Transition-duration: 전환효과 진행 시간
+    - Transition-timing-function: 애니메이션 효과
+        
+        ease (기본값) - 느리게 빠르게 느리게
+            ease-in, ease-out, ease-in-out
+        linear - 일정 속도로 애니메이션 효과를 구현
+
+    - Transition-delay: 전환효과가 적용되기 전 대기 시간
+
+    축약
+    Transition: CSS 속성 duration 애니메이션 효과 delay

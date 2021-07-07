@@ -1,0 +1,28 @@
+* {box-sizing: border-box;
+    color: black;}
+
+html {font-size: 14px; background-color: pink;}
+body { margin: 0;}
+
+ul { list-style: none;
+   }
+
+
+a { text-decoration: none;
+    font-size: 1.2rem;}
+   
+
+nav { border-bottom: 1px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: pink;}
+
+nav ul li {float: left; padding: 10px; margin-left: 0; }
+nav ul:after {
+    clear: left;
+    content: '';
+    display: block;
+}
+
+nav .show_menu {left:0}

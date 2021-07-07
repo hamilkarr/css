@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>트렌지션 연습</title>
+    <style>
+        .div { width: 100px; height: 100px;
+                background-color: orange;
+                /*transition: all 2s;*/
+                /*transition-property: width, height;
+                
+                transition-duration: 1s;
+                transition-timing-function: ease-in-out;
+                transition-delay: 1s;*/
+                /*transition: width 2s ease-in-out 1s, height 2s ease-in-out 1s;*/ /*축약 트랜지션 */
+                transition: all/*width + heigt*/ 2s ease-in-out 1s;
+                }
+        .div:hover { width: 300px; height: 300px;}
+
+    </style>
+</head>
+<body>
+    <div class="div"></div>
+</body>
+</html>
