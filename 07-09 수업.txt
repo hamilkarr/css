@@ -1,0 +1,26 @@
+07-09 수업
+
+vcs beauty 익스텐션 사용법 확인
+
+주중 2회 + 주말 1회 운동.
+
+
+style.css
+
+
+footer .site_guide .site_map {
+    float: left;
+    width: calc(100% - 339px);
+}
+
+* { 
+	box-sizing: border-box;
+	color: #000000;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+html {
+	font-size: 13px; /* 1rem - 13px */
+}
+
+합칠수 있지 않을까?

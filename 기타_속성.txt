@@ -42,3 +42,24 @@ vertical-align: 수직 정렬
     -middle
     -bottom
 
+text-decoration:
+    - none: 효과 없음
+    - underline : 밑줄
+
+text-indent
+    - 들여쓰기
+
+    예) text-indent: 10px;
+    -> 좌에서 우로 10px만큼 들여쓰기.
+
+text-overflow: 텍스트가 넘쳐흐를때
+    - ellipsis (생략 표시 ...을 추가)
+
++ 생략되는 글 요소가 너비를 가져야 하고 
++ 글 개행 속성이 없어야 한다.
+
+white-space
+    -nowrap -> 줄개행x
+    -wrap -> 줄 개행
+ + overflow: hidden -> 넘치는 부분 가리기
+
